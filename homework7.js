@@ -3,9 +3,9 @@ let evenNum = 0
 let oddNum = 0
 for (i = 0; i < array.length; i++) {
     if ((array[i] % 2) === 0) {
-        evenNum = evenNum + 1
+        evenNum++
     } else {
-        oddNum = oddNum + 1
+        oddNum++
     }
 }
 console.log(`${evenNum} - четных, ${oddNum} - нечетных`)
