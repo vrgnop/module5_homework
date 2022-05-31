@@ -4,10 +4,10 @@ let sum = x.reduce(function (sum,elem) {
     return sum + elem
 })
 let y = 0
-for (i = 0; i < x.length; i++) {
+for (let i = 0; i < x.length; i++) {
     if ((sum / x[i]) !== x.length) {
     } else {
-        y = y + 1
+        y++
     }
 }
 if (y === i) {
